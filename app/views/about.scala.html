@@ -1,5 +1,7 @@
 @()
 
+@demoSite = {http://hooray.herokuapp.com}
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
@@ -52,9 +54,15 @@
     <div class="container">
       <h4>A simple front-end for Hayoo.</h4>
         <p>
+            Use your favoriate launcher(<a href="http://www.alfredapp.com/">Alfred</a> on OS X,
+            <a href="http://www.launchy.net/">Launchy</a> on Windows, just name a few) to fire queries!
+        </p>
+        <p>
           The query is in the format of
-          <span style="color: blue;">http://hooray.herokuapp.com/query?q=</span><span style="color: red;">query</span>, for example:<br>
-          <span style="font-size: 14px; color: grey;"><em>http://hooray.herokuapp.com/query?q=foldl</em></span>
+          <span style="color: blue;">@demoSite/query?q=</span><span style="color: red;">query</span>, for example:<br>
+          <a href="@demoSite/query?q=fromCaptur">
+          <span style="font-size: 14px; color: grey;"><em>@demoSite/query?q=fromCapture</em></span>
+          </a>
         </p>
     </div> <!-- /container -->
 
