@@ -7,3 +7,6 @@ GET     /                           controllers.Application.about
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Extract the q parameter from the query string
+GET     /query                      controllers.Application.query(q: String ?= "")
