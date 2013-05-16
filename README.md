@@ -1,6 +1,6 @@
 **Hooray**
 
-*A simple front-end for Hayoo.*
+*A simple front-end for Hayoo, written in Scala + Play! framework*
 
 Use your favoriate launcher([Alfred](http://www.alfredapp.com) on OS X, [Launchy](http://www.launchy.net/) on Windows, just name a few) to fire queries!
 
